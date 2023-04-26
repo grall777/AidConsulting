@@ -1,9 +1,9 @@
 body{
-    position: relative;
-    width: 1440px;
-    height: 2721px;
     background: #FADBB1; 
     font-family: 'Oswald', sans-serif;
+    height: 2721px;
+    margin: 0;
+    padding: 0;
 }
 header {
     position: fixed;
@@ -42,4 +42,22 @@ header {
   
   a:hover {
     color: #c2c2c2;
+  }
+  .photo{
+    width: 100%;
+    padding-top: 0%;
+    margin: 0;
+    padding: 0;
+  }
+  .about_Us{
+    top: 570px;
+    margin: 0;
+    padding: 0;
+  }
+  .block{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background-color: #BBAA92;
   }
