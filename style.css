@@ -14,6 +14,7 @@ header {
     background-color: #00000036;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: 'Oswald', sans-serif;
+    z-index: 9999;
   }
   
   nav {
@@ -146,5 +147,92 @@ header {
     top: 1238px;
 
     background: #BBAA92;
+    border-radius: 28px;
+  }
+  .video{
+    position: absolute;
+    width: 100%;
+    height: 598px;
+    left: 0px;
+    top: 1434px;
+    justify-content: space-between;
+
+    background: #BBAA92;
+  }
+  .video-container {
+    position: relative;
+    width: 927px;
+    height: 521px;
+    left: 20px;
+    top: 38px;
+    border-radius: 28px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 927px;
+    height: 521px;
+    border-radius: 28px;
+  }
+  .block_Video_text{
+    position: absolute;
+    width: 453px;
+    height: 521px;
+    top:  38px;
+    left: 981px;
+
+    background: #FDE5C5;
+    border-radius: 28px;
+  }
+  .news{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    top: 2032px;
+
+    background: #FADBB1;
+    justify-content: center;
+
+  }
+  .news_block1{
+    position: absolute;
+    width: 690px;
+    height: 213px;
+    left: 20px;
+    top: 18px;
+
+    background: #BBAA92;
+    border-radius: 28px;
+  }
+  .news_block2{
+    position: absolute;
+    width: 690px;
+    height: 213px;
+    left: 730px;
+    top: 18px;
+
+    background: #BBAA92;
+    border-radius: 28px;
+  }
+  .contacts{
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    left: 0px;
+    top: 2282px;
+
+    background: #BBAA92;
+  }
+  .block_contacts{
+    position: absolute;
+    width: 690px;
+    height: 279px;
+    left: 375px;
+    top: 25px;
+
+    background: #FDE5C5;
     border-radius: 28px;
   }
