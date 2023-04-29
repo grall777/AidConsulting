@@ -14,7 +14,7 @@ header {
     background-color: #00000036;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: 'Oswald', sans-serif;
-    z-index: 9999;
+    z-index: 9998;
   }
   
   nav {
@@ -45,10 +45,16 @@ header {
     color: #c2c2c2;
   }
   .photo{
+    position: relative;
     height: 570px;
     padding-top: 0%;
     margin: 0;
     padding: 0;
+  }
+  .photo .overlay{
+    position: absolute;
+    top: 0;
+    left: 35%;
   }
   .about_Us{
     top: 570px;
@@ -61,6 +67,11 @@ header {
     margin: 0;
     padding: 0;
     background-color: #BBAA92;
+  }
+  .about_Us .block_1 .aidLogo2{
+    position: absolute;
+    top: 540px;
+    left: 10px;
   }
   .text_1{
     position: absolute;
@@ -125,6 +136,35 @@ header {
     background: #D9D9D9;
     border-radius: 28px;
   }
+  .services{
+    color: #FFFFFF;
+    width: 315px;
+    height: 156px;
+
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+  }
+  .services_name{
+    position: absolute;
+    width: 213px;
+    height: 58px;
+    left: 20px;
+    top: 1180px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: justify;
+
+    color: #000000;
+  }
   .block_Services_1{
     position: absolute;
     width: 335px;
@@ -134,6 +174,13 @@ header {
 
     background: #BBAA92;
     border-radius: 28px;
+  }
+  .block_Services_1_text{
+    position: absolute;
+    
+    top: 16px;
+    left: 10px;
+    right: 10px;
   }
   .block_Services_2{
     position: absolute;
@@ -145,6 +192,13 @@ header {
     background: #BBAA92;
     border-radius: 28px;
   }
+  .block_Services_2_text{
+    position: absolute;
+
+    top: 16px;
+    left: 10px;
+    right: 8px;
+  }
   .block_Services_3{
     position: absolute;
     width: 331px;
@@ -155,6 +209,12 @@ header {
     background: #BBAA92;
     border-radius: 28px;
   }
+  .block_Services_3_text{
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    right: 8px;
+  }
   .block_Services_4{
     position: absolute;
     width: 335px;
@@ -164,6 +224,13 @@ header {
 
     background: #BBAA92;
     border-radius: 28px;
+  }
+  .block_Services_4_text{
+    position: absolute;
+
+    top: 11px;
+    left: 8px;
+    right: 8px;
   }
   .video{
     position: absolute;
@@ -299,4 +366,63 @@ header {
 
     background: #FDE5C5;
     border-radius: 28px;
+  }
+  #location_photo{
+    position: absolute;
+    top: 9px;
+    left: 4px;
+  }
+  #email_photo{
+    position: absolute;
+    top: 89px;
+    left: 15px;
+  }
+  #github_photo{
+    position: absolute;
+    top: 156px;
+    left: 15px;
+  }
+  .contacts_text{
+    position: absolute;
+    width: 579px;
+    height: 242px;
+    left: 90px;
+    top: 16px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 68px;
+
+    color: #000000;
+  }
+  .name_contacts{
+    position: absolute;
+    width: 144px;
+    height: 59px;
+    left: 20px;
+    top: 25px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #FFFFFF;
+  }
+  .menu{
+    position: fixed;
+    top: 2px;
+    left: 60px;
+    z-index: 9999;
+
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #FFFFFF;
   }
