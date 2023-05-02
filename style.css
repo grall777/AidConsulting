@@ -133,7 +133,7 @@ header {
     left: 734px;
     top: 610px;
 
-    background: #D9D9D9;
+    background: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
     border-radius: 28px;
   }
   .services{
@@ -425,4 +425,12 @@ header {
     font-size: 30px;
 
     color: #FFFFFF;
+  }
+  .image-container{
+    background: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
+
+    /* background-image: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
+    background-size: cover, contain;
+    background-position: center, top left;
+    background-repeat: no-repeat; */
   }
