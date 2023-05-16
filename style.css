@@ -2,6 +2,7 @@ body{
     background: #FADBB1; 
     font-family: 'Oswald', sans-serif;
     height: 2721px;
+    width: 1440px;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +10,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 1440px;
     height: 50px;
     background-color: #00000036;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -234,7 +235,7 @@ header {
   }
   .video{
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 598px;
     left: 0px;
     top: 1434px;
@@ -287,7 +288,7 @@ header {
   }
   .news{
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 250px;
     left: 0px;
     top: 2032px;
@@ -350,7 +351,7 @@ header {
   }
   .contacts{
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 330px;
     left: 0px;
     top: 2282px;
@@ -427,10 +428,29 @@ header {
     color: #FFFFFF;
   }
   .image-container{
-    background: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
+    /* background: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg"); */
 
     /* background-image: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
     background-size: cover, contain;
     background-position: center, top left;
     background-repeat: no-repeat; */
+  }
+  #image-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+  }
+  
+  #image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #image-container img.active {
+    opacity: 1;
   }
