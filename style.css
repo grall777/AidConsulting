@@ -1,16 +1,18 @@
 body{
     background: #FADBB1; 
     font-family: 'Oswald', sans-serif;
-    height: 2721px;
     width: 1440px;
-    margin: 0;
-    padding: 0;
+    height: 2721px;
+    margin: 0px auto;
+    padding: 0px auto;
+    position: relative;
+    
 }
 header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 1440px;
+    width: 100%;
     height: 50px;
     background-color: #00000036;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -28,6 +30,7 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
+    
   }
   
   li {
@@ -428,29 +431,10 @@ header {
     color: #FFFFFF;
   }
   .image-container{
-    /* background: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg"); */
+    background: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
 
     /* background-image: url("resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg");
     background-size: cover, contain;
     background-position: center, top left;
     background-repeat: no-repeat; */
-  }
-  #image-container {
-    position: relative;
-    width: 500px;
-    height: 500px;
-  }
-  
-  #image-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    width: 100%;
-    height: 100%;
-  }
-  
-  #image-container img.active {
-    opacity: 1;
   }

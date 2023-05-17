@@ -1,32 +1,21 @@
-<script>
-    const images = document.querySelectorAll('#image-container img');
-    let currentImage = 0;
-
-    function changeImage() {
-    images[currentImage].classList.remove('active');
-    currentImage = (currentImage + 1) % images.length;
-    images[currentImage].classList.add('active');
-    }
-
-    changeImage;
-    setInterval(changeImage, 5000);
-
-</script>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AidConsulting</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div class="all">
     <header>
         <nav>
             <ul>
@@ -61,11 +50,7 @@
             </div>
         </div>
         <div class="block_4">
-            <div class="image-container" id="image-container">
-                <img src="resources/ljjuwjne9.2949x1735-cropx0y2-is.1482x0-is-1024x603.jpeg" alt="">
-                <img src="resources/podgotovka-dokumentov-k-peredache-v-arhiv-2.jpg" alt="">
-                <img src="resources/shutterstock_448000054.jpg" alt="">
-                <img src="resources/photo2021-08-2513-16-58.jpg" alt="">
+            <div class="image-container">
               </div>
         </div>
 
@@ -129,7 +114,7 @@
         <div class="block_contacts">
             <div class="contacts_text">
                 Адрес: г. Минск, ул. Кропоткина 55 <br>
-                Mail: archive-BY@gmail.com <br>
+                Mail: archive-by@mail.ru <br>
                 github: grall777
             </div>
             <img src="resources/location.png" alt="" width="80px" height="80px" id="location_photo">
@@ -137,6 +122,5 @@
             <img src="resources/github.png" alt="" width="60px" height="60px" id="github_photo">
         </div>
     </div>
-</div>
 </body>
 </html>
